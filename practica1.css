@@ -1,0 +1,56 @@
+
+*{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  
+}
+
+.text{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+button{
+    font-style: normal;
+    border: none;
+    background: none;
+    padding: 5px;
+    background-color: #CCCCCC;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.button{
+left: 22%;
+position: relative;
+
+
+}
+
