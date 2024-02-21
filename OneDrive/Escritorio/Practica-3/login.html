@@ -4,26 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     <script src="login.js"></script>
     <title>Document</title>
 </head>
 <body>
-<div class="formulario">
-    <form>
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario">
-        <br>
-        <br>
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena">
-    <br>
-    <br>
-        <button type="button" id="btnLogin" >Iniciar Sesión</button>
-        <br><br>
-        <button type="button" id="btnRegistro">Registrarme</button>
-      </form>
-      <br>
-      <div id="mensaje"></div>
-    </div>
+
+        <ion-header>
+  <ion-toolbar>
+    <ion-title>Presupuesto</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <h1>Presupuesto</h1>
+      <ion-list>
+  <ion-item>
+    <ion-input label="Articulo:"></ion-input>
+  </ion-item>
+
+ <ion-item>
+    <ion-input label="Monto:"></ion-input>
+  </ion-item>
+           </ion-list>
+
+
+    <ion-button>Guardar</ion-button>
+</ion-content>
+
+    
+  
+      
+
+      
+
+    
+
+    
+        
+
+
+
+
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
 </body>
 </html>
