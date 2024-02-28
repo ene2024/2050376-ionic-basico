@@ -1,43 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+ion-col {
+    background-color: #050f94;
+    border: solid 1px #ffffff;
+    color: #fff;
+    text-align: center;
   }
 
-  #formulario {
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-
-label {
-    margin-right: 30px; 
-    font-size: 16px;
-}
-
-button{
-    width: 238.12px;
-    margin-left: 41px;
-    height: 32.94px;
-    background-color: #620D4F;
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 20px;
-}
-
-input{
-    background-color: #D9D9D9;
-    width: 175.86px;
-    border: none;
-    height: 25.62px;
- 
-}
-
-#usuario{
-    margin-left: 27px;
-}
