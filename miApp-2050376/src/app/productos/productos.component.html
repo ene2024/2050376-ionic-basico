@@ -1,3 +1,5 @@
-<p>
-  productos works!
-</p>
+<div *ngFor="let producto of productos" [routerLink]="['/producto', producto.id]" (click)="verDetalleProducto(producto.id)">
+  <h2>{{ producto.title }}</h2>
+  <img [src]="producto.image" alt="Imagen del producto">
+
+</div>

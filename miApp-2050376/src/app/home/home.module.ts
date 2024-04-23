@@ -19,6 +19,6 @@ import { ProductosComponent } from '../productos/productos.component';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, ListaAlumnosComponent, ProductosComponent]
+  declarations: [HomePage, ListaAlumnosComponent]
 })
 export class HomePageModule {}
