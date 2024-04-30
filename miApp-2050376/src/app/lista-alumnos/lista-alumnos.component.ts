@@ -18,7 +18,7 @@ alumnos: alumno[] = [];
     presente: false
   }
 
-  async mostrarActionSheet(alumno: string) {
+  async mostrarActionSheet(alumno: alumno) {
     const actionSheet = await this.actionSheetController.create({
       header: 'Confirmar eliminación',
       buttons: [
@@ -43,7 +43,7 @@ alumnos: alumno[] = [];
     await actionSheet.present();
   }
 
-  eliminarAlumno(alumno: string) { 
+  eliminarAlumno(alumno: alumno) { 
   }
 
 
