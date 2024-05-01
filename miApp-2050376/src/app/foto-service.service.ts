@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Camera, CameraResultType, CameraSource, Photo } from '@capacitor/camera';
+import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Preferences } from '@capacitor/preferences';
+import { Foto } from 'foto.model';
+
 
 
 @Injectable({
@@ -11,7 +14,7 @@ import { Preferences } from '@capacitor/preferences';
 
 
 export class FotoServiceService {
-  
+  public fotos: Foto[] = [];
 
   constructor() { }
 public async addNewToGallery() {
@@ -20,6 +23,11 @@ public async addNewToGallery() {
     source: CameraSource.Camera,
     quality: 100
   });
+  this.fotos.unshift({
+    filepath: '',
+    webViewPath: capturedPhoto.webPath
+  })
+  
 
 }
 }
